@@ -174,4 +174,4 @@ F:\APP-WebAIDJ\FoamRadioWebDJ\src\pages\Resources.tsx
 F:\APP-WebAIDJ\FoamRadioWebDJ\src\pages\Settings.tsx 
 F:\APP-WebAIDJ\FoamRadioWebDJ\src\pages\Support.tsx 
 F:\APP-WebAIDJ\FoamRadioWebDJ\src\services\llm.ts 
-F:\APP-WebAIDJ\FoamRadioWebDJ\src\services\openai.ts 
+F:\APP-WebAIDJ\FoamRadioWebDJ\src\services\openai.ts
