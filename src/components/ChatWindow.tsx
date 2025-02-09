@@ -101,11 +101,11 @@ export function ChatWindow() {
   };
 
   return (
-    <div className="h-full flex flex-col bg-gray-950/50 rounded-lg backdrop-blur-sm border border-blue-900/50 shadow-xl relative">
+    <div className="h-[calc(100%-4rem)] flex flex-col bg-gray-950/50 rounded-lg backdrop-blur-sm border border-blue-900/50 shadow-xl relative mb-16">
       <div className="absolute -inset-[1px] bg-gradient-to-r from-blue-900/20 via-blue-800/20 to-blue-900/20 rounded-lg blur-sm -z-10"></div>
       <div className="absolute -inset-[1px] bg-gradient-to-r from-blue-800/10 via-blue-700/10 to-blue-800/10 rounded-lg blur-md -z-20"></div>
 
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div className="flex-1 min-h-0 overflow-y-auto p-4 space-y-4">
         {messages.map((message, index) => (
           <div
             key={index}
@@ -134,7 +134,7 @@ export function ChatWindow() {
 
       <form
         onSubmit={handleSubmit}
-        className="border-t border-blue-900/50 p-4 bg-gray-950/30"
+        className="flex-shrink-0 border-t border-blue-900/50 p-4 bg-gray-950/30"
       >
         <div className="flex gap-4">
           <input
